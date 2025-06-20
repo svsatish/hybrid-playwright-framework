@@ -22,7 +22,7 @@ test('UI registration + API validation', async ({ page, request }) => {
 
   logger.info('Now verifying registration via API');
   const res = await request.get(
-    `/api/getUserDetailByEmail?email=${user.email}`,
+    `/api/getUserDetailByEmail?email=${'user.email'}`,
   );
   expect(res.status()).toBe(200);
   const data = await res.json();
