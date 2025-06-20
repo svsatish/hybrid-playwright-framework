@@ -24,6 +24,12 @@ jobs:
           npm ci
           npx playwright install --with-deps
 
+      - name: Lint code
+        run: npm run lint    
+
+      - name: Format check
+        run: npm run format -- --check
+        
       - name: Run Playwright tests
         run: npm run test
 
