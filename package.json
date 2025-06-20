@@ -21,7 +21,9 @@
     "@types/node": "^24.0.3",
     "allure-commandline": "^2.20.1",
     "allure-playwright": "^3.2.2",
+    "eslint": "^9.29.0",
     "log4js": "^6.9.1",
+    "prettier": "^3.5.3",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
   },

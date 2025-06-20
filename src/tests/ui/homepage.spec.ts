@@ -3,7 +3,7 @@ import { HomePage } from '../../pages/HomePage';
 import { logger } from '../../utils/logger';
 
 test('Home page should load with correct title', async ({ page }) => {
-  test.info().annotations.push({ type: 'feature', description: 'HomePage' });  
+  test.info().annotations.push({ type: 'feature', description: 'HomePage' });
   const home = new HomePage(page);
   await home.open();
   const title = await home.getTitle();

@@ -1,3 +1,3 @@
 export const config = {
-  baseUrl: 'https://automationexercise.com'
+  baseUrl: 'https://automationexercise.com',
 };

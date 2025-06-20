@@ -3,6 +3,7 @@
 Production-ready framework for full-stack test automation using [Playwright](https://playwright.dev/) with TypeScript.
 
 ### ✨ Features
+
 - Page Object Model (POM)
 - UI + API hybrid testing
 - TypeScript strict typing
@@ -21,8 +22,8 @@ Production-ready framework for full-stack test automation using [Playwright](htt
 
 ---
 
-
 ## 📁 Project Structure
+
 ```
 project-root/
 ├── .github/workflows/        # GitHub Actions workflows
@@ -49,12 +50,14 @@ project-root/
 ---
 
 ## 🧩 Setup
+
 ```bash
 npm install
 npx playwright install
 ```
 
 Create a `.env` file from template:
+
 ```bash
 cp .env.example .env
 ```
@@ -62,6 +65,7 @@ cp .env.example .env
 ---
 
 ## 🧪 Run Tests
+
 ```bash
 npm run test                 # Run all tests
 npm run test:ui             # UI only
@@ -71,9 +75,11 @@ npm run test:api            # API only
 ---
 
 ## 📊 Allure Reporting
+
 ```bash
 npm run allure:report
 ```
+
 Trends visible after second run.
 
 Report is published to githubpages - https://svsatish.github.io/hybrid-playwright-framework/
@@ -81,7 +87,9 @@ Report is published to githubpages - https://svsatish.github.io/hybrid-playwrigh
 ---
 
 ## 🤖 GitHub Actions CI
+
 Workflow in `.github/workflows/playwright.yml`
+
 - Installs dependencies
 - Runs tests headless
 - Uploads Allure results
@@ -90,6 +98,7 @@ Workflow in `.github/workflows/playwright.yml`
 ---
 
 ## 📦 Docker (optional)
+
 ```bash
 docker build -t playwright-hybrid .
 docker run --rm playwright-hybrid
@@ -98,6 +107,7 @@ docker run --rm playwright-hybrid
 ---
 
 ## 🔍 Linting & Formatting
+
 ```bash
 npm run lint
 npm run format
@@ -106,6 +116,7 @@ npm run format
 ---
 
 ## 🧪 Test Data with Faker
+
 ```ts
 import { generateTestUser } from '../utils/testUserGenerator';
 const user = generateTestUser();
@@ -114,9 +125,11 @@ const user = generateTestUser();
 ---
 
 ## 🔐 Secrets
+
 Use `.env` for secrets and dynamic config.
 
 ### .env.example
+
 ```
 BASE_URL=https://automationexercise.com
 ENV_NAME=QA
@@ -126,6 +139,7 @@ EXECUTOR=Satish Saripella
 ---
 
 ## ✅ Scripts in package.json
+
 ```json
 "scripts": {
   "test": "npx playwright test",
@@ -143,6 +157,7 @@ EXECUTOR=Satish Saripella
 ---
 
 ## 🧹 To Do
+
 - [ ] Add test coverage (playwright-coverage)
 - [ ] Central config for environments
 - [ ] Data cleanup endpoints (if needed)
@@ -150,9 +165,11 @@ EXECUTOR=Satish Saripella
 ---
 
 ## 🤝 Contributing
+
 PRs welcome! Reach out to **Satish Saripella** for questions.
 
 ---
 
 ## 🧠 Author
+
 Maintained by Satish Saripella

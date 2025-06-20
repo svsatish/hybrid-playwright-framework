@@ -8,7 +8,7 @@ async function globalSetup(config: FullConfig) {
     `Browser=${config.projects[0].use?.browserName || 'chromium'}`,
     `BaseURL=${config.projects[0].use?.baseURL || 'https://automationexercise.com'}`,
     `Platform=${process.platform}`,
-    'Executor=Satish'
+    'Executor=Satish',
   ].join('\n');
 
   const outputDir = path.join(__dirname, 'allure-results');

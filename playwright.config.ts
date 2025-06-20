@@ -8,6 +8,6 @@ export default defineConfig({
     baseURL: 'https://automationexercise.com',
     headless: true,
     screenshot: 'only-on-failure',
-    video: 'retain-on-failure'
-  }
+    video: 'retain-on-failure',
+  },
 });

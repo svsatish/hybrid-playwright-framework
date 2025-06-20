@@ -4,8 +4,9 @@ import { logger } from '../../utils/logger';
 import { generateTestUser } from '../../utils/testUserGenerator';
 
 test('UI registration + API validation', async ({ page, request }) => {
-
-  test.info().annotations.push({ type: 'feature', description: 'User Registration' });
+  test
+    .info()
+    .annotations.push({ type: 'feature', description: 'User Registration' });
 
   const user = generateTestUser(); // 🔥 dynamic fake user
   const register = new RegisterPage(page);
@@ -20,9 +21,11 @@ test('UI registration + API validation', async ({ page, request }) => {
   logger.info('User registration successful via UI');
 
   logger.info('Now verifying registration via API');
-  const res = await request.get(`/api/getUserDetailByEmail?email=${user.email}`);
+  const res = await request.get(
+    `/api/getUserDetailByEmail?email=${user.email}`,
+  );
   expect(res.status()).toBe(200);
   const data = await res.json();
-  expect(data.user.email).toBe("user.email");
+  expect(data.user.email).toBe('user.email');
   logger.info('User details validated successfully via API');
 });
