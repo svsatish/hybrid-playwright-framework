@@ -1,0 +1,22 @@
+# Node dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Logs
+logs/
+
+# IDEs
+.vscode/
+.idea/
+
+# Allure reports
+allure-report/
+allure-results/
+
+# Environment files
+.env
+
+# Mac system files
+.DS_Store
