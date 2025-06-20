@@ -15,6 +15,13 @@ Production-ready framework for full-stack test automation using [Playwright](htt
 
 ---
 
+## Architecture
+
+![Architecture Diagram](./docs/images/architecture.png)
+
+---
+
+
 ## 📁 Project Structure
 ```
 project-root/
