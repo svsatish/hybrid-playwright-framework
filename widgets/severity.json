@@ -1,1 +1,1 @@
-[]
+[{"uid":"8944f5b7fb58caba","name":"Get all products","time":{"start":1750430806782,"stop":1750430807148,"duration":366},"status":"passed","severity":"normal"},{"uid":"c37372eef6876e2","name":"UI registration + API validation","time":{"start":1750430806924,"stop":1750430810298,"duration":3374},"status":"failed","severity":"normal"},{"uid":"e21e9ab69a8415c1","name":"Home page should load with correct title","time":{"start":1750430807205,"stop":1750430809840,"duration":2635},"status":"passed","severity":"normal"}]

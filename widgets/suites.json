@@ -1,1 +1,1 @@
-{"total":0,"items":[]}
+{"total":3,"items":[{"uid":"520953c0d5b59d0d54912862a8a9658a","name":"hybrid/register-and-validate.spec.ts","statistic":{"failed":1,"broken":0,"skipped":0,"passed":0,"unknown":0,"total":1}},{"uid":"79716ba993575260d1a53b16613f2392","name":"api/products.spec.ts","statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1}},{"uid":"e750e71f7c091df238d2dafd796283b4","name":"ui/homepage.spec.ts","statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1}}]}

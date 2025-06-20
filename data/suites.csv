@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","3374","UI registration + API validation","","Fri Jun 20 14:46:46 UTC 2025","failed","Fri Jun 20 14:46:50 UTC 2025","","hybrid/register-and-validate.spec.ts","",""
+"","2635","Home page should load with correct title","","Fri Jun 20 14:46:47 UTC 2025","passed","Fri Jun 20 14:46:49 UTC 2025","","ui/homepage.spec.ts","",""
+"","366","Get all products","","Fri Jun 20 14:46:46 UTC 2025","passed","Fri Jun 20 14:46:47 UTC 2025","","api/products.spec.ts","",""

@@ -1,1 +1,1 @@
-[]
+[{"values":["QA"],"name":"Environment"},{"values":["chromium"],"name":"Browser"},{"values":["https://automationexercise.com"],"name":"BaseURL"},{"values":["linux"],"name":"Platform"},{"values":["Satish"],"name":"Executor"}]
