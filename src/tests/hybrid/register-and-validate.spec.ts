@@ -26,6 +26,6 @@ test('UI registration + API validation', async ({ page, request }) => {
   );
   expect(res.status()).toBe(200);
   const data = await res.json();
-  expect(data.user.email).toBe(user.email);
+  expect(data.user.email).toBe('user.email');
   logger.info('User details validated successfully via API');
 });
