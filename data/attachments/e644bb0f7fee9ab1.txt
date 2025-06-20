@@ -1,0 +1,3 @@
+[2025-06-20T03:00:47.556] [INFO] default - Registering user: Easton.Nienow29@demo.com
+[2025-06-20T03:00:50.416] [INFO] default - User registration successful via UI
+[2025-06-20T03:00:50.416] [INFO] default - Now verifying registration via API

@@ -1,3 +1,0 @@
-[2025-06-20T02:52:30.940] [INFO] default - Registering user: Shawna.Schaefer59@demo.com
-[2025-06-20T02:52:33.065] [INFO] default - User registration successful via UI
-[2025-06-20T02:52:33.065] [INFO] default - Now verifying registration via API
