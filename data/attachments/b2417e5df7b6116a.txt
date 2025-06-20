@@ -1,3 +1,0 @@
-[2025-06-20T14:46:47.192] [INFO] default - Registering user: Elenor13@demo.com
-[2025-06-20T14:46:50.179] [INFO] default - User registration successful via UI
-[2025-06-20T14:46:50.179] [INFO] default - Now verifying registration via API
