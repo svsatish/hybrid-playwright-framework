@@ -76,6 +76,8 @@ npm run allure:report
 ```
 Trends visible after second run.
 
+Report is published to githubpages - https://svsatish.github.io/hybrid-playwright-framework/
+
 ---
 
 ## 🤖 GitHub Actions CI
