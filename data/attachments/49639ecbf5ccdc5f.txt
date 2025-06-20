@@ -1,4 +1,0 @@
-[2025-06-20T15:23:52.420] [INFO] default - Registering user: Kaya_Schuppe@demo.com
-[2025-06-20T15:23:55.467] [INFO] default - User registration successful via UI
-[2025-06-20T15:23:55.467] [INFO] default - Now verifying registration via API
-[2025-06-20T15:23:55.633] [INFO] default - User details validated successfully via API

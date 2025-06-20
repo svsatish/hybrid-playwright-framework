@@ -1,4 +1,4 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","3379","UI registration + API validation","","Fri Jun 20 15:23:49 UTC 2025","passed","Fri Jun 20 15:23:53 UTC 2025","","hybrid/register-and-validate.spec.ts","",""
-"","520","Get all products","","Fri Jun 20 15:23:49 UTC 2025","passed","Fri Jun 20 15:23:50 UTC 2025","","api/products.spec.ts","",""
-"","1872","Home page should load with correct title","","Fri Jun 20 15:23:50 UTC 2025","passed","Fri Jun 20 15:23:52 UTC 2025","","ui/homepage.spec.ts","",""
+"","3545","UI registration + API validation","","Fri Jun 20 15:51:24 UTC 2025","failed","Fri Jun 20 15:51:28 UTC 2025","","hybrid/register-and-validate.spec.ts","",""
+"","2036","Home page should load with correct title","","Fri Jun 20 15:51:25 UTC 2025","passed","Fri Jun 20 15:51:27 UTC 2025","","ui/homepage.spec.ts","",""
+"","585","Get all products","","Fri Jun 20 15:51:24 UTC 2025","passed","Fri Jun 20 15:51:25 UTC 2025","","api/products.spec.ts","",""
