@@ -28,26 +28,31 @@ jobs:
         run: npm run test
 
       - name: Copy Allure history
+        if: always()
         run: |
           mkdir -p allure-results/history
           cp -r allure-report/history allure-results/history || echo "no history"
 
       - name: Generate Allure report
+        if: always()
         run: npm run allure:generate
 
       - name: Upload Allure report
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: allure-report
           path: allure-report
 
       - name: Upload Allure results
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: allure-results
           path: allure-results
 
       - name: Deploy to GitHub Pages
+        if: always()
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
